@@ -13,7 +13,9 @@ Checks the status code of each requested page and prints a message if the status
 
 1. Сlone this repository to your local machine. 
 2. Make sure you have Python 3 installed. 
-3. Download actual chromedriver for your Chrome version and place it in project directory as a file named "chromedriver"
+3. Download actual chromedriver for your Chrome version and place it in project directory as a file named "chromedriver".
+Here: https://chromedriver.chromium.org/downloads
+
 3. Install the required dependencies using pip install -r requirements.txt.
 
 ## USAGE
