@@ -25,8 +25,35 @@ python3 main.py <WEBSITE_START_PAGE_URL>
 ## Example
 
 `
-python3 crawl_site.py https://127.0.0.1:8000
+
 `
 
+```console
+$ python3 crawl_site.py http://127.0.0.1:8000
+
+Page: http://127.0.0.1:8000
+Links on this page:
+  - http://127.0.0.1:8000
+  - http://127.0.0.1:8000/help/contacts/
+Page: http://127.0.0.1:8000/help/contacts/
+Links on this page:
+  - http://127.0.0.1:8000/
+  - http://127.0.0.1:8000/help/contacts/
+  - http://127.0.0.1:8000/login/
+  - http://127.0.0.1:8000/help/contacts/
+Page: http://127.0.0.1:8000/
+Links on this page:
+  - http://127.0.0.1:8000/
+  - http://127.0.0.1:8000/help/contacts/
+Page: http://127.0.0.1:8000/login/
+Links on this page:
+  - http://127.0.0.1:8000/login/
+  - http://127.0.0.1:8000/help/contacts/
+Links on this page:
+  - http://127.0.0.1:8000/
+Pages with errors (status code != 200) 
+  - http://127.0.0.1:8000/help/contacts/ - 500
+```
+
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
